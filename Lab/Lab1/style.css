@@ -1,0 +1,23 @@
+body{
+    color: none;
+    background-color:lightgrey;
+}
+footer{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    background-color:aqua;
+    color: darkorchid;
+}
+image{
+    width: 50%;
+}
+audio{
+    width: 30%;
+}
+video{
+    width: 30%;
+}
+iframe{
+    width= 50%;
+}
