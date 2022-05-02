@@ -10,13 +10,20 @@ footer{
     color: darkorchid;
 }
 image{
-    width: 50%;
+    width: 15%;
 }
+
 audio{
-    width: 30%;
+    width: 20%;
 }
 video{
-    width: 30%;
+    width: 20%;
+}
+.dog {
+    width: 50%;
+    float: left;
+   display: flex;
+    color:none;
 }
 iframe{
     width= 50%;
