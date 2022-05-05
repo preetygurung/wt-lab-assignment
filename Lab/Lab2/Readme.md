@@ -1,4 +1,7 @@
+##Buttons
 ![button](https://github.com/preetygurung/wt-lab-assignment/blob/master/Lab/Lab2/button.png)
+
+##Borders
 ![border](https://github.com/preetygurung/wt-lab-assignment/blob/master/Lab/Lab2/border.png)
 
 -id : The id global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).
