@@ -3,7 +3,10 @@
 ## Borders
 ![border](https://github.com/preetygurung/wt-lab-assignment/blob/master/Lab/Lab2/border.png)
 
--id : The id global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).
+***
+-id: The id global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).
+
+-padding: It is the space between an element’s border and the element’s content.
 
 -a tag: The tag defines a hyperlink, which is used to link from one page to another.
 
