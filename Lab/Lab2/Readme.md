@@ -16,4 +16,4 @@
 
 -background-color:The background-color property sets the background color of an element.
 
--border-color:The border-color property sets the color of an element's four borders
+-border-color:The border-color property sets the color of an element's four borders.
