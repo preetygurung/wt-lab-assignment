@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+<body>
+    <script type="text/javascript">
+        const string=prompt('Enter a string');
+        //console.log(string);
+        let rev="";
+        for(let i = string.length - 1; i >= 0; i--){
+            console.log(string[i]);
+            rev=rev+string[i];
+        }
+        function palindrome(){
+        if(rev==string){
+            console.log("It is a palindrome");
+            alert("It is a palindrome")
+        }
+        else{
+            console.log("It is not a palindrome");
+            alert("It is a not  palindrome")
+        }
+    }
+    palindrome();
+    </script>
+</body>
+</html>
