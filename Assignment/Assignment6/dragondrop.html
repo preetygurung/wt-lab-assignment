@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ringer Ringer Rose</title>
+</head>
+<style type="text/css">
+    .box div {
+        height: 20px;
+        width: 100px;
+        text-align: center;
+        border-radius: 5px;
+        border: black 1px solid;
+        position: absolute;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    #box2 {
+        left: 100px;
+        margin-left: 30px;
+    }
+
+    #box3 {
+        left: 200px;
+        margin-left: 50px;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <div id="box1">Ringer</div>
+        <div id="box2">Ringer</div>
+        <div id="box3">Rose</div>
+    </div>
+
+    <script type="text/javascript">
+        const box1Ele = document.querySelector('#box1');
+        dragElement(box1Ele);
+        const box2Ele = document.querySelector('#box2');
+        dragElement(box2Ele);
+        const box3Ele = document.querySelector('#box3');
+        dragElement(box3Ele);
+
+        function dragElement(elmnt) {
+            elmnt.addEventListener('mousedown', mouseDown);
+
+            function mouseDown(e) {
+                e.preventDefault();
+                // elmnt.addEventListener('mousemove', mouseMove);
+                document.addEventListener('mousemove', mouseMove);
+                document.addEventListener('mouseup', mouseUp);
+
+            }
+            function mouseMove(e) {
+                e.preventDefault();
+                elmnt.style.left = e.clientX + 'px';
+                elmnt.style.top = e.clientY + 'px';
+
+            }
+            function mouseUp() {
+                document.removeEventListener('mousemove', mouseMove);
+                document.removeEventListener('mouseup', mouseUp);
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
